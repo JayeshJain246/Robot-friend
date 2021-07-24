@@ -1,0 +1,128 @@
+.robot{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color:grey;
+    font: bold;
+    font-family: fantasy;
+    word-spacing: 2px;
+}
+.head, 
+.lefthand, 
+.stomach, 
+.righthand, 
+.leftleg, 
+.rightleg{
+    background-color: rgb(128, 231, 60);
+
+}
+.head{
+    width: 200px;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 200px 200px 0px 0px;
+    margin-bottom: 10px;
+   
+}
+.head:hover{
+    width: 250px;
+    height: 125px;
+    border-radius: 250px 250px 0 0;
+    transition: 1s ease-in-out;
+}
+.body{
+    display: flex;
+    width: 300px;
+    height: 180px;
+    
+
+}
+.lefthand,
+.righthand{
+    
+    width: 30px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.lefthand{
+    margin-right: 10px;
+}
+.lefthand:hover{
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+   
+.righthand{
+    margin-left: 10px;
+}
+.righthand:hover{
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.stomach{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 0px 50px 50px;
+}
+.lowerbody{
+    display: flex;
+    justify-content: center;
+}
+.leftleg,
+.rightleg{
+    width: 30px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+}
+
+.leftleg{
+    margin-right: 30px;
+}
+.rightleg{
+    margin-left: 30px; 
+}
+.leftleg:hover{
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.rightleg:hover{
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.eye{
+    display: flex;
+}
+.lefteye, .righteye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.lefteye { 
+	position: relative; 
+	top: 60px; 
+	left: 40px; 
+} 
+
+.righteye { 
+	position: relative; 
+	top: 60px; 
+	left: 120px; 
+}
